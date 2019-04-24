@@ -49,6 +49,16 @@
        <TYP>SEOCLSNAME</TYP>
       </RSIMP>
      </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_SUPER</PARAMETER>
+       <TYP>SEOCLSNAME</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_METHODS</PARAMETER>
+       <TYP>SEO_METHODS</TYP>
+      </RSEXP>
+     </EXPORT>
      <TABLES>
       <RSTBL>
        <PARAMETER>ET_TEST</PARAMETER>
@@ -66,14 +76,24 @@
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
-       <PARAMETER>ET_TEST</PARAMETER>
+       <PARAMETER>EV_SUPER</PARAMETER>
        <KIND>P</KIND>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
-       <PARAMETER>ET_SOURCE</PARAMETER>
+       <PARAMETER>ET_METHODS</PARAMETER>
        <KIND>P</KIND>
        <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_TEST</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_SOURCE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 005</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>

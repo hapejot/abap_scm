@@ -4,7 +4,6 @@
   <asx:values>
    <AREAT>RFC API for source code management</AREAT>
    <INCLUDES>
-    <SOBJ_NAME>LZPJL_BC_SCMTOP</SOBJ_NAME>
     <SOBJ_NAME>SAPLZPJL_BC_SCM</SOBJ_NAME>
    </INCLUDES>
    <FUNCTIONS>
@@ -49,16 +48,6 @@
        <TYP>SEOCLSNAME</TYP>
       </RSIMP>
      </IMPORT>
-     <EXPORT>
-      <RSEXP>
-       <PARAMETER>EV_SUPER</PARAMETER>
-       <TYP>SEOCLSNAME</TYP>
-      </RSEXP>
-      <RSEXP>
-       <PARAMETER>ET_METHODS</PARAMETER>
-       <TYP>SEO_METHODS</TYP>
-      </RSEXP>
-     </EXPORT>
      <TABLES>
       <RSTBL>
        <PARAMETER>ET_TEST</PARAMETER>
@@ -76,24 +65,14 @@
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
-       <PARAMETER>EV_SUPER</PARAMETER>
+       <PARAMETER>ET_TEST</PARAMETER>
        <KIND>P</KIND>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
-       <PARAMETER>ET_METHODS</PARAMETER>
-       <KIND>P</KIND>
-       <INDEX> 003</INDEX>
-      </RSFDO>
-      <RSFDO>
-       <PARAMETER>ET_TEST</PARAMETER>
-       <KIND>P</KIND>
-       <INDEX> 004</INDEX>
-      </RSFDO>
-      <RSFDO>
        <PARAMETER>ET_SOURCE</PARAMETER>
        <KIND>P</KIND>
-       <INDEX> 005</INDEX>
+       <INDEX> 003</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>

@@ -4,6 +4,7 @@
   <asx:values>
    <AREAT>RFC API for source code management</AREAT>
    <INCLUDES>
+    <SOBJ_NAME>LZPJL_BC_SCMTOP</SOBJ_NAME>
     <SOBJ_NAME>SAPLZPJL_BC_SCM</SOBJ_NAME>
    </INCLUDES>
    <FUNCTIONS>
@@ -28,13 +29,11 @@
        <PARAMETER>IV_PACKAGE</PARAMETER>
        <KIND>P</KIND>
        <STEXT>Package</STEXT>
-       <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>ET_CLASS</PARAMETER>
        <KIND>P</KIND>
        <STEXT>Class info</STEXT>
-       <INDEX> 002</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
@@ -62,17 +61,14 @@
       <RSFDO>
        <PARAMETER>IV_CLASSNAME</PARAMETER>
        <KIND>P</KIND>
-       <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>ET_TEST</PARAMETER>
        <KIND>P</KIND>
-       <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>ET_SOURCE</PARAMETER>
        <KIND>P</KIND>
-       <INDEX> 003</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
